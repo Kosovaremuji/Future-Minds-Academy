@@ -1,0 +1,40 @@
+body,
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(129, 129, 129);
+    padding: 20px;
+    box-shadow: 0px 3px 7px 5px #5c5c5c; 
+
+}
+
+li {
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+
+li a {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #dbc0c0; 
+    color: white;
+    border-radius: 5px; 
+    transition: 2s;
+}
+li a:hover {
+    background-color: black;
+    transition: 2s;
+}
+.activePage {
+background-color: black;
+}
+
+nav ul {
+    width: 456px;
+    margin: 0px auto;
+}
