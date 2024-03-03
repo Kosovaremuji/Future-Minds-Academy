@@ -2,12 +2,13 @@ body,
 ul {
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
     background-color: rgb(129, 129, 129);
     padding: 20px;
-    box-shadow: 0px 3px 7px 5px #5c5c5c; 
+    box-shadow: 0px 3px 7px 5px #5c5c5c;
 
 }
 
@@ -21,20 +22,75 @@ li a {
     padding: 10px;
     font-size: 20px;
     text-decoration: none;
-    background-color: #dbc0c0; 
+    background-color: #dbc0c0;
     color: white;
-    border-radius: 5px; 
+    border-radius: 5px;
     transition: 2s;
 }
+
 li a:hover {
     background-color: black;
     transition: 2s;
 }
+
 .activePage {
-background-color: black;
+    background-color: black;
 }
 
 nav ul {
-    width: 456px;
+    width: 480px;
     margin: 0px auto;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.p30 {
+    padding: 30px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.pt40 {
+    padding-top: 40px;
+}
+
+main {
+    width: 1150pxk;
+    margin: 20px auto;
+}
+
+figure {
+    float: left;
+}
+
+h4 {
+    color: red;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: grey;
+}
+
+.right {
+    float: right;
+}
+
+img { transition: 1s;}
+
+img:hover {
+    border-radius: 50%;
+    transition: 1s ease-in-out;
 }
