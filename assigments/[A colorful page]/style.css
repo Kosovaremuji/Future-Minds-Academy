@@ -1,0 +1,27 @@
+body {
+    background-image: url(wood.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: auto;
+}
+
+h1 {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.473), rgb(236, 181, 243));
+    color: rgb(163, 181, 194);
+}
+
+p {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.473), rgb(236, 181, 243));
+    color: rgb(37, 41, 44);
+    padding: 10px;
+}
+
+ul {
+    background-image: linear-gradient(to left, rgba(32, 32, 32, 0.473), rgb(42, 41, 43));
+    padding: 10px;
+}
+
+li {
+    color: aliceblue;
+}
