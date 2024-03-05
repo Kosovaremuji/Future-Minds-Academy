@@ -1,0 +1,203 @@
+body {
+    background-image: url(Images/wallpapers.avif);
+}
+
+* {
+    cursor:url(Images/Cursor.png) auto;
+}
+
+hr {
+    border-top: 1px dashed rgb(61, 125, 65);
+}
+
+header {
+    text-align: center;
+    color: rgb(92, 18, 52);
+    font-style: italic;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    color: rgb(75, 134, 75);
+    text-decoration: none;
+    background-color: rgba(238, 164, 164, 0.877);
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(114, 141, 99, 0.904);
+    transition: 1s;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.profile {
+    border-radius: 20%;
+    border: solid 2px rgb(24, 94, 51);
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.who {
+    background-image: linear-gradient(to left, rgba(111, 172, 164, 0.568), rgba(199, 199, 199, 0.822));
+    padding: 2rem;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.who:hover {
+    background-image: linear-gradient(to right, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    border: 3px solid rgb(27, 83, 55);
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 2, 0);
+}
+
+.Education {
+    background-image: linear-gradient(to right, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    padding: 2rem;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+
+.Education:hover {
+    background-image: linear-gradient(to left, rgba(111, 172, 164, 0.568), rgba(199, 199, 199, 0.822));
+    border: 3px solid rgb(27, 83, 55);
+}
+
+.School {
+    background-image: linear-gradient(to left, rgba(111, 172, 164, 0.568), rgba(199, 199, 199, 0.822));
+    border-radius: 10px;
+    text-align: left;
+    padding: 1rem;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 2, 0);
+
+}
+
+.School :hover {
+    background-image: linear-gradient(to left, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    border-radius: 20px;
+}
+
+.Skills {
+    background-image: linear-gradient(to left, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    border-radius: 20px;
+    padding: 1rem;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.Skills:hover {
+    background-image: linear-gradient(to left, rgba(111, 172, 164, 0.568), rgba(199, 199, 199, 0.822));
+    border: 3px solid rgb(27, 83, 55);
+}
+
+.Tables {
+    background-image: linear-gradient(to left, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Projects {
+    background-image: linear-gradient(to right, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    border-radius: 20px rgb(27, 83, 55);
+    padding: 1rem;
+    width: 75%;
+    text-align: left;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.Projects,
+.footer,
+.project1,
+.project2,
+.project3,
+.msg,
+.Connect :hover {
+    background-image: linear-gradient(to left, rgba(111, 172, 164, 0.568), rgba(199, 199, 199, 0.822));
+    border-radius: 20px;
+}
+
+.footer {
+    background-image: linear-gradient(to right, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    width: 75%;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.project1 {
+    background-image: linear-gradient(to right, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    padding: 2rem;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.project2 {
+    background-image: linear-gradient(to left, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    padding: 2rem;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.project3 {
+    background-image: linear-gradient(to right, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    padding: 2rem;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.msg {
+    background-image: linear-gradient(to left, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    padding: 2rem;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+.Connect {
+    background-image: linear-gradient(to right, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    padding: 2rem;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
