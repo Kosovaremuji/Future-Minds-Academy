@@ -1,5 +1,5 @@
 * {
-    cursor: url(Images/m.png) auto;
+    cursor: url(Images/lila.png), auto;
 }
 
 body {
@@ -21,14 +21,16 @@ nav ul li {
     display: inline-block;
     list-style: none;
     text-align: center;
-    color: rgb(6, 10, 6);
+    color: rgb(230, 241, 230);
     text-decoration: none;
     background-color: rgba(238, 164, 164, 0.877);
     border-radius: 5px;
+    padding: 1px;
 }
 
 nav ul li a:hover {
     background-color: rgba(114, 141, 99, 0.904);
+    border-radius: 5px;
     transition: 1s;
 }
 
@@ -93,7 +95,7 @@ p {
 
 }
 
-.School :hover {
+.School:hover {
     background-image: linear-gradient(to left, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
     border-radius: 20px;
 }
@@ -132,13 +134,18 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.Projects :hover {
+.Projects:hover {
     background-image: linear-gradient(to left, rgba(111, 172, 164, 0.568), rgba(199, 199, 199, 0.822));
     border: 3px solid rgb(27, 83, 55);
 }
 
+.foto {
+    width: 600px;
+    border-radius: 1%;
+}
+
 .footer {
-    background-image: linear-gradient(to right, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+    background-image: linear-gradient(to left, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
     width: 75%;
     padding: 2rem;
     margin: auto;
@@ -148,8 +155,8 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.footer :hover {
-    background-image: linear-gradient(to right, rgba(18, 95, 85, 0.568), rgba(255, 151, 220, 0.822));
+.footer:hover {
+    background-image: linear-gradient(to left, rgba(111, 172, 164, 0.568), rgba(199, 199, 199, 0.822));
     border: 3px solid, rgb(27, 83, 55);
 }
 
@@ -163,7 +170,7 @@ p {
     margin-top: 30px;
 }
 
-.project1 :hover {
+.project1:hover {
     background-image: linear-gradient(to left, rgba(111, 172, 164, 0.568), rgba(199, 199, 199, 0.822));
     border: 3px solid rgb(27, 83, 55);
 }
