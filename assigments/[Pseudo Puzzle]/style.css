@@ -1,0 +1,24 @@
+h1{
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+h1:first-letter{
+    font-size: 150%;
+    font-style: bold;
+    text-transform:uppercase;
+}
+.bgPink{
+    background-color: pink;
+}
+.bgBlue{
+    background-color: rgb(23, 119, 143);
+}
+.bgPink:hover {
+    background-color: rgb(255, 0, 64);
+}
+.bgBlue:hover{
+    background-color: rgb(6, 173, 34);
+}
