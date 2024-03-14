@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    
+}
+main{
+    background-color: pink;
+}
+header{
+    background-color: red;
+}
+aside{
+    background-color: green;
+
+}
+footer{
+    background-color: black;
+}
+
+div  {
+   display: grid;
+   grid-template-columns: 50px 1fr 50px;
+}
