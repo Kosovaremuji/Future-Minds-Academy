@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    height: 100vh;
+}
+
+aside {
+    background-color: violet;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+.section {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+
+.section1 {
+    background-color: aquamarine;
+}
+
+.section2 {
+    background-color: blueviolet;
+}
+
+.section3 {
+    background-color: brown;
+}
+
+footer {
+    background-color: blue;
+}
