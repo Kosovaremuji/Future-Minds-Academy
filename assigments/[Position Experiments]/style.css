@@ -1,0 +1,24 @@
+.boxes{
+    width: 300px;
+    float: left;
+
+}
+
+.neil1, .buzz, .neil2, .neil3, .neil4 {
+    border: 1px solid rgb(196, 190, 190);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow:2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: red;
+}

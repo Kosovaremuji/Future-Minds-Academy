@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(243, 197, 205);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border: solid 2px black;
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+}
