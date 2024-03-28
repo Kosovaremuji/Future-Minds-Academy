@@ -1,37 +1,52 @@
-.boxes{
+.boxes {
     width: 400px;
-    height: 50px;
+    margin: 5px;
+    padding: 5px;
     float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.neil1, .buzz, .neil2, .neil3, .neil4 {
+p {
+   text-align: center;
+}
+
+.neil1,
+.buzz,
+.neil2,
+.neil3,
+.neil4 {
     position: relative;
     border: 1px solid rgb(196, 190, 190);
-    margin: 0 20px 20px 0 ;
-    box-shadow:2px 2px 5px 2px rgba(0, 0, 0, 0.2); 
+    margin: 0 20px 20px 0;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
-.close{
+div>h1 {
+    position: relative;
+    top: -40px;
+    left: 5px;
+}
+
+.close {
     position: absolute;
     top: -7px;
     right: -10px;
-    background-color: transparent;
     border: 1px solid red;
     background-color: red;
-    border-radius: 10px;
-    font-size: 14px;
+    border-radius: 500px;
     cursor: pointer;
     color: white;
+    font-size: xx-small;
 }
 
-.video{ 
+.video {
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 300px; 
+    width: 300px;
     height: 200px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
