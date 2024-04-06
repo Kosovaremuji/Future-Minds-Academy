@@ -1,0 +1,45 @@
+body {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    height: 100vh;
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+/* aside*/
+.logo {
+    align-items: center;
+}
+
+aside {
+    background: url("assets/images/sidebar-1.jpg");
+    background-color: rgba(0, 0, 0, 0.397);
+    background-blend-mode: color;
+    background-position: center;
+    padding: 20px;
+    color: white;
+}
+
+.asideLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px 30px;
+    border-radius: 2px;
+}
+
+.asideLinks:hover:not(.active, .logo) {
+    background-color: rgba(211, 211, 211, 0.61);
+}
+
+.active {
+    background-color: red;
+}
+
+.images {
+    width: 50px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+}
