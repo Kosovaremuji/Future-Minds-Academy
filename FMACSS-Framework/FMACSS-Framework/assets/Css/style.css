@@ -1,0 +1,12 @@
+body {
+    font-family:sans-serif;
+}
+.hero .features {
+    padding-top: 20px;
+}
+header {
+    height: 10vh;
+}
+.col {
+    background-color: rgb(243, 99, 123);
+}
