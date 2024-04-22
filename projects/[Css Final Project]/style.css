@@ -129,12 +129,13 @@ header div {
     background-color: red;
     width: 12px;
     height: 12px;
-    right: 9.2em;
+    right: 11em;
     top: 14px;
     text-align: center;
     border: 2px solid red;
     border-radius: 50%;
     color: white;
+    font-size: smaller;
 }
 
 .notifications {
