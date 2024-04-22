@@ -215,7 +215,7 @@ header div {
 .globalJustifyCcenter {
     display: flex;
     justify-content: center;
-    bottom: 0;
+    bottom: 40%;
 }
 
 .listingCardImg {
