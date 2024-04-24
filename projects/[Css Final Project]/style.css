@@ -224,7 +224,7 @@ header div {
 }
 
 .listingCardImg:hover {
-    transition: ease .2s;
+    transition: ease ;
     transform: translateY(-65px);
 }
 
