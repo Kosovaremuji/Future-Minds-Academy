@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pR{
+    position: relative;
+    width: 200px;
+}
+.airC{
+    position: absolute;
+    top: 70px;
+    right: 5px;
+}
+select{
+    width: 330px;
+    margin-left: 40px;
+}

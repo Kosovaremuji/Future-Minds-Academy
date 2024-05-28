@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+
+<body>
+
+   <div id="allprofiles">
+
+    </div>
+    
+
+
+    <script>
+        let profiles = [
+            {
+                name: 'Kosovare Muji',
+                age: 31,
+                bio: 'My biography with a lot ups and downs'
+            },
+            {
+                name: 'Era Osmani',
+                age: 23,
+                bio: 'Nena Terez..'
+            },
+            {
+                name: 'Filon Fisteku',
+                age: 101,
+                bio: 'Shume interesant bio ka filoni...'
+            }
+        ];
+
+        const allprofiles = document.querySelector('#allprofiles')
+
+        for (let i = 0; i < profiles.length; i++) {
+
+            allprofiles.innerHTML += renderHtml(profiles[i].name, profiles[i].age, profiles[i].bio);
+            
+
+
+        }
+
+
+
+        //renderHtml();
+
+        function renderHtml(name, age, bio) {
+            let finalHtml = '';
+
+            finalHtml +=
+            `<h1>${name}</h1>
+             <h2>${age}</h2>
+             <p>${bio}</p>
+             <hr>
+            `;
+
+            return finalHtml;
+        }
+    </script>
+
+</body>
+
+</html>
